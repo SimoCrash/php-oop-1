@@ -22,7 +22,7 @@
         }
     }
 
-    $up = new Movie('Up', 2009, 'animation', getEta());
+    $up = new Movie ('Up', 2009, 'animation', $eta_up = $up->getEta());
     $non_aprire_quella_porta = new Movie ('Non aprire quella porta', 2006, 'horror', getEta());
     $parto_col_folle = new Movie ('Parto col folle', 2010, 'comedy', getEta());
     var_dump($up, $non_aprire_quella_porta, $parto_col_folle);
