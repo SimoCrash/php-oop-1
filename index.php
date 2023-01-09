@@ -5,7 +5,7 @@
         public $genre;
         public $eta;
 
-        public function __construct($title, $year, $genre, getEta())
+        public function __construct($title, $year, $genre, $eta)
         {
             $this->title = $title;
             $this->year = $year;
@@ -25,6 +25,6 @@
     $non_aprire_quella_porta = new Movie ('Non aprire quella porta', 2006, 'horror', getEta());
     $parto_col_folle = new Movie ('Parto col folle', 2010, 'comedy', getEta());
     var_dump($up, $non_aprire_quella_porta, $parto_col_folle);
-
+    echo $up, $non_aprire_quella_porta, $parto_col_folle;
 
 ?>
