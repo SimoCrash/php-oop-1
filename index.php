@@ -10,6 +10,7 @@
             $this->title = $title;
             $this->year = $year;
             $this->genre = $genre;
+            $this->eta = $eta;
         }
 
         public function setEta(){
@@ -26,5 +27,4 @@
     $parto_col_folle = new Movie ('Parto col folle', 2010, 'comedy', getEta());
     var_dump($up, $non_aprire_quella_porta, $parto_col_folle);
     echo $up, $non_aprire_quella_porta, $parto_col_folle;
-
 ?>
